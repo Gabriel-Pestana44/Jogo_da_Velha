@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/CSS.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header>
+        <h1>Que o Jogo comece!!!</h1>
+    </header>
+
+    <div class="game-container">
+        <div class="timer-container">
+            <p>Tempo restante: <span id="timer">-</span></p>
+        </div>
+        
+        <div class="start-container">
+            <button id="startButton">Começar Jogo</button>
+        </div>
+        
+        <div class="board-container">
+            <div class="board" id="board"></div>
+        </div>
+        
+        <div class="result-overlay hidden" id="resultOverlay"></div>
+        <div class="result-container hidden" id="resultContainer">
+            <h2 id="resultMessage"></h2>
+            <button id="restartButton">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <a href="../index/index.html"><button>Voltar</button></a>
+    </div>
+
+    <script src="JavaScript/logica.js"></script>
+</body>
+</html>
